@@ -55,11 +55,27 @@
             }
         },
         {
+            "Key": "12a8e828-7130-42ed-9a84-20380a2bd4c1",
+            "Value": {
+                "id": "83582df8-9567-41a2-af42-63fc6bc5d7dc",
+                "resourcePath": "views\\12a8e828-7130-42ed-9a84-20380a2bd4c1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "16ad2033-250e-4eed-aa9e-4fe8c964b8d4",
             "Value": {
                 "id": "e3e0c7b2-0f92-4b57-978a-334ccd58a031",
                 "resourcePath": "sprites\\spr_papa_walk\\spr_papa_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e534f9b-e914-4500-9102-257d2942091f",
+            "Value": {
+                "id": "c183ec76-82e6-4bc9-8439-681ee86ce71a",
+                "resourcePath": "objects\\view\\view.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -84,6 +100,14 @@
                 "id": "fe0ca53f-e751-4649-b3c4-4a1c2714a2d1",
                 "resourcePath": "views\\3add4fda-c8c8-4549-abca-f3957b90d2af.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "435d9cae-1319-4ab4-98ff-58742a315fda",
+            "Value": {
+                "id": "b3185773-733c-4411-9cb0-a8ca1edaf145",
+                "resourcePath": "sprites\\spr_bottle\\spr_bottle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +215,14 @@
             }
         },
         {
+            "Key": "aaf1de8a-6725-4d55-88a7-570390db6383",
+            "Value": {
+                "id": "dbf49ccd-1d92-40d5-8d7d-f4ddf5e286b4",
+                "resourcePath": "objects\\obj_gas\\obj_gas.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "abe67e29-b7ab-469e-938b-0c0484f64bd0",
             "Value": {
                 "id": "2f2af1c4-be9f-408a-8d5c-6e085511f1c2",
@@ -212,6 +244,14 @@
                 "id": "5398605a-3e14-4a29-894c-604b812d332b",
                 "resourcePath": "views\\c1712943-65e3-4c31-ad4c-6392e157d32f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2fcbf64-5bbd-47ef-990b-e1c2b13f556b",
+            "Value": {
+                "id": "20031e24-3f39-415c-a0fa-f374771b3b20",
+                "resourcePath": "objects\\game\\game.yy",
+                "resourceType": "GMObject"
             }
         },
         {

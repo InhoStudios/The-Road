@@ -3,8 +3,13 @@
 depth = -y;
 getInput();
 
-hsp = movespeed * (keyRight - keyLeft);
-vsp = movespeed * (keyDown - keyUp);
+if(keyWalk){
+	hsp = walkspeed * (keyRight - keyLeft);
+	vsp = walkspeed * (keyDown - keyUp);
+} else {
+	hsp = movespeed * (keyRight - keyLeft);
+	vsp = movespeed * (keyDown - keyUp);
+}
 
 // vertical
 
