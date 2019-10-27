@@ -8,7 +8,8 @@ if(follow != noone){
 	yTo = follow.y;
 }
 
-yTo = clamp(yTo,0,room_height - (viewHeight/2));
+yTo = clamp(yTo,viewHeight/2,room_height - (viewHeight/2));
+xTo = clamp(xTo,viewWidth/2,room_width - (viewWidth/2));
 
 var vm = matrix_build_lookat(x,y,-1080,x,y,0,0,1,0);
 

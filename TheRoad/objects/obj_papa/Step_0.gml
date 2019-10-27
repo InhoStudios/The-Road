@@ -59,3 +59,11 @@ if(hsp != 0 || vsp != 0) {
 		sprite_index = spr_papa_idle;
 	}
 }
+
+if(instance_exists(obj_gas)) {
+	var gas = instance_nearest(x,y,obj_gas);
+	if(place_meeting(x,y,gas) && gas.gas > 0){
+		gasoline += gas.gas;
+		with(gas) instance_destroy();
+	}
+}

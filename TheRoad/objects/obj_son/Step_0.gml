@@ -58,4 +58,13 @@ x += hsp;
 
 if(hsp != 0 || vsp != 0) {
 	if(hsp != 0) image_xscale = sign(hsp);
+	if(sprite_index != spr_son_walk) {
+		image_index = 0;
+		sprite_index = spr_son_walk;
+	}
+} else {
+	if(sprite_index != spr_son_idle) {
+		image_index = 0;
+		sprite_index = spr_son_idle;
+	}
 }

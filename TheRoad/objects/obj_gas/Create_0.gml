@@ -3,3 +3,4 @@
 hsp = 0;
 vsp = 0;
 contact = noone;
+gas = 0;
