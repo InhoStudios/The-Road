@@ -67,3 +67,11 @@ if(instance_exists(obj_gas)) {
 		with(gas) instance_destroy();
 	}
 }
+
+if(sprite_index != spr_papa_draw && keyDraw){
+	sprite_index = spr_papa_draw;
+} else {
+	if(mbShoot){
+		// shoot
+	}
+}
