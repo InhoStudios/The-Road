@@ -7,8 +7,6 @@ vsp = 0;
 getInput();
 breathSpeed = 0.3;
 image_speed = breathSpeed;
-gasoline = 0;
-bullets = 10;
 state = move;
 shooting = false;
 clDir = 0;

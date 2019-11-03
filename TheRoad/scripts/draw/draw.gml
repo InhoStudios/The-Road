@@ -10,7 +10,7 @@ if(!shooting){
 		shooting = false;
 	}
 	// if shooting, shoot
-	if(mbShoot && bullets > 0){
+	if(mbShoot && stats.bullets > 0){
 		image_speed = 0.3;
 		sprite_index = spr_papa_shoot;
 		image_index = 0;
@@ -18,10 +18,10 @@ if(!shooting){
 		var yy = y - 18;
 		var bul = instance_create_depth(x,yy,depth,obj_bullet);
 		bul.image_xscale = image_xscale;
-		bullets--;
+		stats.bullets--;
 		shooting = true;
 		// if no bullets, retract
-	} else if (mbShoot && bullets <= 0){
+	} else if (mbShoot && stats.bullets <= 0){
 		image_speed = -0.3;
 	}
 }
