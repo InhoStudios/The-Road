@@ -60,13 +60,6 @@ if(hsp != 0 || vsp != 0) {
 	}
 }
 
-if(instance_exists(obj_gas)) {
-	var gas = instance_nearest(x,y,obj_gas);
-	if(place_meeting(x,y,gas) && gas.gas > 0){
-		stats.gas += gas.gas;
-		with(gas) instance_destroy();
-	}
-}
 
 if(keyDraw){
 	image_index = 0;

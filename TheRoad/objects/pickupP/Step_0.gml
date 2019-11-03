@@ -10,10 +10,12 @@ if(place_meeting(x,y,obj_papa)){
 
 if(contact != noone){
 	hsp = sign(contact.hsp);
+	showInteract = true;
 } else {
 	hsp = 0;
+	showInteract = false;
 }
 
 if(hsp != 0) {
-	image_angle -= sign(hsp);
+	image_angle -= scale * sign(hsp);
 }

@@ -1,18 +1,18 @@
 {
-    "id": "aaf1de8a-6725-4d55-88a7-570390db6383",
+    "id": "05b1352b-1424-4a16-b375-ad45e435ba52",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gas",
+    "name": "obj_ammo",
     "eventList": [
         {
-            "id": "0a256547-b205-469a-ad9a-2497c177819b",
+            "id": "5404212e-af01-470b-ade8-9e7792ba01f6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "aaf1de8a-6725-4d55-88a7-570390db6383"
+            "m_owner": "05b1352b-1424-4a16-b375-ad45e435ba52"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "435d9cae-1319-4ab4-98ff-58742a315fda",
+    "spriteId": "ee462e06-1abc-48d5-b891-4774eafdea72",
     "visible": true
 }

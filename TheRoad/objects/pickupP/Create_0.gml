@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
+scale = 0;
+contact = noone;
+showInteract = false;
 depth = -y;
-
-script_execute(state);

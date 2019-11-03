@@ -4,7 +4,7 @@
 
 // global variables for both players (collective)
 gas = 0;
-bullets = 0;
+bullets = 2;
 
 food = 0;
 

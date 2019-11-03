@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-depth = -y;
-
-script_execute(state);
+contact = noone;
+scale = 3/4;
+rounds = irandom(3);

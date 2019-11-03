@@ -1,23 +1,23 @@
 {
-    "id": "aaf1de8a-6725-4d55-88a7-570390db6383",
+    "id": "40cdb404-12b7-45e4-aa09-a1c1dbac6da1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gas",
+    "name": "entityP",
     "eventList": [
         {
-            "id": "0a256547-b205-469a-ad9a-2497c177819b",
+            "id": "64beb0e8-7c51-40ee-8546-f7ffcef12b49",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "aaf1de8a-6725-4d55-88a7-570390db6383"
+            "eventtype": 3,
+            "m_owner": "40cdb404-12b7-45e4-aa09-a1c1dbac6da1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "64669943-9840-47f8-bf10-a66a40f2f675",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "435d9cae-1319-4ab4-98ff-58742a315fda",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
