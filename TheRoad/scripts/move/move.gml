@@ -1,16 +1,17 @@
 
 image_speed = breathSpeed;
 
-clDir = point_direction(0, 0, (keyRight - keyLeft), (keyDown - keyUp));
+var xDir = (keyRight - keyLeft);
+var yDir = (keyDown - keyUp);
 
+clDir = point_direction(0, 0, xDir, yDir);
 if(keyWalk){
-	hsp = walkspeed * (keyRight - keyLeft);
-	vsp = walkspeed * (keyDown - keyUp);
+	hsp = moveKeyPressed() * lengthdir_x(walkspeed,clDir);
+	vsp = moveKeyPressed() * lengthdir_y(walkspeed,clDir);
 } else {
-	hsp = movespeed * (keyRight - keyLeft);
-	vsp = movespeed * (keyDown - keyUp);
+	hsp = moveKeyPressed() * lengthdir_x(movespeed,clDir);
+	vsp = moveKeyPressed() * lengthdir_y(movespeed,clDir);
 }
-
 // vertical
 
 if(place_meeting(x, y + vsp, obj_wall)) {

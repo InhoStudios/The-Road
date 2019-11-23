@@ -6,13 +6,14 @@ depth = -y;
 if(instance_exists(obj_papa)) {
 	follow = obj_papa;
 }
-var toF = 0;
+toF = point_direction(x,y,follow.x,follow.y);
 if(x > follow.x + radius || x < follow.x - radius) {
 	idle = false;
-	toF = point_direction(x,y,follow.x,follow.y);
+	alarm[0] = 30;
 } else {
-	idle = true;
+	if(alarm[0] <= 0) idle = true;
 	if(idle) {
+		toF = 0;
 		hsp = 0;
 		vsp = 0;
 	}

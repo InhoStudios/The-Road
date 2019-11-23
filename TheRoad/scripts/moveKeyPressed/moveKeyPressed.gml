@@ -1,0 +1,1 @@
+return (keyLeft||keyRight||keyUp||keyDown);

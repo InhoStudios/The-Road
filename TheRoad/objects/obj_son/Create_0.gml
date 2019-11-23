@@ -6,5 +6,6 @@ vsp = 0;
 breathSpeed = 0.35;
 image_speed = breathSpeed;
 follow = noone;
-radius = 16;
+radius = 32;
 idle = false;
+toF = 0;
